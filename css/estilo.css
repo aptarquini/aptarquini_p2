@@ -20,6 +20,7 @@
     align-items: center;
     padding: 0 20px;
     height: 90px;
+    width: 100vw
 }
 
 .nav a img{
@@ -41,7 +42,7 @@
     background-color: #e3b1f4;
     color: #f9f5e5;
     padding: 10px;
-    font-size: 23px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -63,6 +64,8 @@
     align-content: space-between;
     flex-direction: column;
     justify-content: center;
+    width: 100vw;
+    height: 400px;
 }
 
 .main-index{
@@ -72,6 +75,7 @@
     flex-wrap: nowrap;
     align-content: flex-start;
     justify-content: space-between;
+    width: 100vw;
 }
 
 /* relatos */
@@ -79,11 +83,17 @@
 .header-relatos{
     background-color: #f44708;
     color: #f9f5e5;
+    display: flex;
     text-align: center;
     height: 400px;
     font-size: 30px;
     padding: 200px;
+    width: 100vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
 }
+
 .main-relatos{
     background-color: #f44708;
     display: flex;
@@ -91,7 +101,7 @@
     flex-wrap: nowrap;
     align-content: flex-start;
     justify-content: space-between;
-    height: 400px;
+    height: 350px;
 }
 
 /* el lado h */
@@ -99,10 +109,15 @@
 .header-ladoh{
     background-color: #f9f5e5;
     color: black;
+    display: flex;
     text-align: center;
-    height: 400px;
+    height: 200px;
     font-size: 30px;
     padding: 200px;
+    width: 100vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .main-ladoh{
@@ -112,48 +127,34 @@
     flex-wrap: nowrap;
     align-content: flex-start;
     justify-content: space-between;
-    height: 400px;
+    height: 350px;
 }
 
 /* para ti */
 .header-parati{
     background-color: #f2cbbe;
     color: black;
+    display: flex;
     text-align: center;
     height: 200px;
     font-size: 30px;
     padding: 200px;
+    width: 100vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
-.parati-row1{
+.main-parati{
     background-color: #f44708;
     color: black;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-between;
-    height: 200px;
-}
-.parati-row2{
-    background-color: #f2cbbe;
-    color: black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-between;
-    height: 200px;
-}
-.parati-row3{
-    background-color: #f44708;
-    color: black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-between;
-    height: 200px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    height: 500px;
+    width: 100vw;
 }
 
 .video-iframe{
@@ -168,26 +169,41 @@
 .header-contacto{
     background-color: #f9f5e5;
     color: black;
+    display: flex;
     text-align: center;
-    height: 20px;
+    height: 200px;
     font-size: 30px;
-    padding: 100px;
+    padding: 200px;
+    width: 100vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.header-contacto{
+    background-color: #f9f5e5;
+    color: black;
+    display: flex;
+    text-align: center;
+    height: 200px;
+    font-size: 30px;
+    padding: 200px;
+    width: 100vw;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .main-contacto{
     background-color: #f9f5e5;
     color: black;
     display: flex;
-    height: 200px;
-    align-content: space-around;
-    height: 575px;
-    padding: 20;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start;
-    height: 575px;
-    font-size: 25px;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    height: 500px;
+    width: 100vw;
 }
 
 
@@ -199,6 +215,7 @@
     align-items: center;
     padding: 0 20px;
     height: 90px;
+    width: 100vw;
 }
 
 .footer ul{
@@ -214,7 +231,7 @@
 
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 900px) {
     .column {
       width: 50%;
     }
